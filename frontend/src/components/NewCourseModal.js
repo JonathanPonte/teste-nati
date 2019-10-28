@@ -28,7 +28,7 @@ const NewCourseModal = (props) => (
                     </Form.Control>
                 </Form.Group>
 
-                <Form.Group controlId="formSemestre">
+                <Form.Group controlId="formSemestre" className={props.disableSemestre ? "d-none" : "" }>
                     <Form.Label>Quantidade de semestres: </Form.Label>
                     <Form.Control 
                                 type="number" 
@@ -37,7 +37,7 @@ const NewCourseModal = (props) => (
                                 placeholder="Informe a quantidade de semestres total deste curso" 
                                 name="semestres"
                                 onChange={props.onChange} 
-                                value={props.course.semestres.length} />
+                                value={props.course.semestres} />
                 </Form.Group>
 
             </Form>

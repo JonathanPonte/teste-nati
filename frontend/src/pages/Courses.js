@@ -52,7 +52,7 @@ export default class Courses extends React.Component {
         e.preventDefault()
         const data = this.state.newCourse
         const response = await API.post("cursos", data)
-        await this.setState(prevState => ({ courses: [...prevState.courses, response.data] }))
+        await this.setState(prevState => ({ courses: [...prevState.courses, response.data], newCourse: { nome: '', turno: 'M', semestres: 0  } }))
         this.handleCloseModal()
     }
 

@@ -1,5 +1,10 @@
 <h3>Teste de desenvolvedor NATI</h3>
-<p>Este sistema permite aos seus usuários gerênciar matrizes curriculares.</p>
+<p>Este sistema permite seus usuários gerênciar matrizes curriculares.</p>
+Links para os repositorios individuais: <br/>
+<b>Backend:</b> https://github.com/davimelovasc/teste-unifor <br/>
+<b>Frontend:</b> https://github.com/davimelovasc/teste-unifor-front <br/>
+
+<hr/>
 
 <h4>Tecnologias, linguagens e frameworks utilizados </h4>
 <ul>
@@ -23,13 +28,13 @@
 <hr/>
 
 <h4>Modelagem do banco de dados</h4>
-<img src="https://uploaddeimagens.com.br/imagens/teste_db-png">
+<img href="https://uploaddeimagens.com.br/imagens/teste_db-png">
 
 <h4>Processo para rodar a aplicação utilizando Docker</h4>
 
 Clone o repositório:
 ```
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/davimelovasc/teste-nati
 ```
 entre na pasta do projeto e execute o comando para prepara a aplicação:
 ```
@@ -40,5 +45,7 @@ e para rodar a aplicação, levante os containers com:
 docker-compose up
 ```
 em alguns minutos a aplicação estará rodando no endereço: http://127.0.0.1:9090/
-OBS: O usuário administrador que ja vem cadastrado: admin@admin.com
+<br/>
+OBS1: O usuário administrador que ja vem cadastrado: admin@admin.com
+<br/>
 
