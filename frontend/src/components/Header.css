@@ -1,0 +1,13 @@
+header {
+    background-color: #2B2D42;
+    height: 60px;
+    width: 100%;
+}
+
+header .dropdown {
+    display: flex;
+}
+
+header .dropdown-toggle {
+    margin: 10px 20px 0 auto;
+}

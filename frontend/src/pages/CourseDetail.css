@@ -1,0 +1,28 @@
+.card-header {
+    font-weight: 600;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+.title {
+    width: fit-content;
+    display: inline-block;
+}
+
+.alignIcon{
+    margin-bottom: 4px;
+}
+
+.alignIconTop {
+    margin-top: -5px;
+}
+
+.disciplinaDetail span {
+    font-weight: 500;
+}
+
+.backIcon {
+    font-size: 1.4rem;
+}

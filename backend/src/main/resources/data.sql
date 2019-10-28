@@ -1,0 +1,1 @@
+INSERT INTO usuario (nome, email, tipo)  VALUES ('Administrador', 'admin@admin.com', 4) 
