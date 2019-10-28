@@ -115,7 +115,8 @@ export default class CourseDetail extends React.Component {
                                             disciplinas={semestre.disciplinas} 
                                             handleOpenModal={this.handleOpenDisciplinaModal} 
                                             semestre={semestre}
-                                            removeDisciplina={this.removeDisciplina} />
+                                            removeDisciplina={this.removeDisciplina}
+                                            deleteSemester={this.deleteSemester} />
 
                                         </React.Fragment>
                                             )
