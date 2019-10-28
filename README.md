@@ -28,7 +28,7 @@ Links para os repositorios individuais: <br/>
 <hr/>
 
 <h4>Modelagem do banco de dados</h4>
-![Image banco](https://uploaddeimagens.com.br/images/002/456/857/original/teste_db.png)
+![imagem do banco de dados](teste_db.png)
 
 <h4>Processo para rodar a aplicação utilizando Docker</h4>
 
